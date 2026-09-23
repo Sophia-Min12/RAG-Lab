@@ -24,7 +24,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 0** — Repo scaffold, CI, and curriculum roadmap
 
 **Level 1 · Chunking — what actually goes in the index**
-- [ ] **Day 1** — Chunking strategies: fixed, sentence-aware, and overlap
+- [x] **Day 1** — Chunking strategies: fixed, sentence-aware, and overlap
 - [ ] **Day 2** — Metadata and citation spans: pointing back at the source
 - [ ] **Day 3** — Chunk size versus answer quality, measured
 - [ ] **Day 4** — Documents that break chunkers: tables, code, Korean
