@@ -30,7 +30,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 4** — Documents that break chunkers: tables, code, Korean
 
 **Level 2 · Retrieval**
-- [ ] **Day 5** — BM25, the baseline that must be beaten
+- [x] **Day 5** — BM25, the baseline that must be beaten
 - [ ] **Day 6** — Real sentence embeddings (`sentence-transformers` arrives)
 - [ ] **Day 7** — A vector store from scratch: exact search, and why it stops scaling
 - [ ] **Day 8** — Approximate nearest neighbours: IVF and HNSW, and what they give up
