@@ -11,4 +11,10 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pytest numpy
-      - run: pytest
+      # Day 6 onwards needs a sentence embedding model. Installed here so
+      # those tests actually run rather than silently skipping; if the
+      # model cannot be fetched they skip with the reason printed, so a
+      # rate limit never turns the badge red.
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install sentence-transformers
+      - run: pytest -q
