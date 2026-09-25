@@ -27,7 +27,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 1** — Chunking strategies: fixed, sentence-aware, and overlap
 - [x] **Day 2** — Metadata and citation spans: pointing back at the source
 - [x] **Day 3** — Chunk size versus answer quality, measured
-- [ ] **Day 4** — Documents that break chunkers: tables, code, Korean
+- [x] **Day 4** — Documents that break chunkers: tables, code, Korean
 
 **Level 2 · Retrieval**
 - [ ] **Day 5** — BM25, the baseline that must be beaten
