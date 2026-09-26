@@ -44,7 +44,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 
 **Level 4 · Generation**
 - [x] **Day 14** — Context packing: order, budget, and the lost-in-the-middle effect
-- [ ] **Day 15** — Grounding and citation: making the answer point at its evidence
+- [x] **Day 15** — Grounding and citation: making the answer point at its evidence
 - [ ] **Day 16** — Measuring hallucination: faithfulness against the retrieved context
 - [ ] **Day 17** — Capstone: the full loop, a CLI, and the honest writeup
 
