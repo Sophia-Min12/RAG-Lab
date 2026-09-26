@@ -34,7 +34,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 6** — Real sentence embeddings (`sentence-transformers` arrives)
 - [x] **Day 7** — A vector store from scratch: exact search, and why it stops scaling
 - [x] **Day 8** — Approximate nearest neighbours: IVF and HNSW, and what they give up
-- [ ] **Day 9** — Hybrid retrieval: score fusion versus rank fusion
+- [x] **Day 9** — Hybrid retrieval: score fusion versus rank fusion
 - [ ] **Day 10** — Cross-encoder reranking: slow, accurate, and worth it for the top 50
 
 **Level 3 · Evaluation**
