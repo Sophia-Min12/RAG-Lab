@@ -40,7 +40,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 **Level 3 · Evaluation**
 - [x] **Day 11** — `recall@k`, `MRR`, `nDCG`, and which one answers your question
 - [x] **Day 12** — Building an evaluation set without hand-labelling everything
-- [ ] **Day 13** — Ablations: turning each component off and reading the damage
+- [x] **Day 13** — Ablations: turning each component off and reading the damage
 
 **Level 4 · Generation**
 - [ ] **Day 14** — Context packing: order, budget, and the lost-in-the-middle effect
