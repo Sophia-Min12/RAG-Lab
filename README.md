@@ -38,7 +38,7 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 10** — Cross-encoder reranking: slow, accurate, and worth it for the top 50
 
 **Level 3 · Evaluation**
-- [ ] **Day 11** — `recall@k`, `MRR`, `nDCG`, and which one answers your question
+- [x] **Day 11** — `recall@k`, `MRR`, `nDCG`, and which one answers your question
 - [ ] **Day 12** — Building an evaluation set without hand-labelling everything
 - [ ] **Day 13** — Ablations: turning each component off and reading the damage
 
