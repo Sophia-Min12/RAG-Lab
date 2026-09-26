@@ -46,7 +46,41 @@ The second rule follows from the first: **the baseline is never skipped.** BM25 
 - [x] **Day 14** — Context packing: order, budget, and the lost-in-the-middle effect
 - [x] **Day 15** — Grounding and citation: making the answer point at its evidence
 - [x] **Day 16** — Measuring hallucination: faithfulness against the retrieved context
-- [ ] **Day 17** — Capstone: the full loop, a CLI, and the honest writeup
+- [x] **Day 17** — Capstone: the full loop, a CLI, and the honest writeup
+
+---
+
+## ✅ The result
+
+All 17 days complete. The finished system:
+
+```
+question set      ret hit  ret MRR  correct  grounded  abstained
+original             100%    0.971      82%       94%         6%
+paraphrased          100%    0.853      47%       71%        24%
+```
+
+Retrieval is perfect on both sets. Generation is the bottleneck, and has
+been since Day 10.
+
+Three results the repo would rather not report, and does:
+
+- **The whole corpus fits in the generator's context window** — 437 tokens
+  against a 512-token limit. Passing all of it with no retrieval scores
+  56% against the pipeline's 65%, so retrieval here is a distractor
+  filter rather than a finder.
+- **The model follows a poisoned context 100% of the time**, handing each
+  fabrication over with an accurate citation. It also recites from its
+  own weights 0% of the time. These are the same property.
+- **Thirty-four questions cannot separate most of these configurations.**
+  The 95% interval on 16/17 runs from 83% to 105%.
+
+Fourteen claims were wrong before they were measured — a citation scheme
+that quoted the wrong sentence on decomposed Korean, an IVF slower than
+brute force, an agreement metric that counted ties as agreement, a
+published RRF constant that made things worse. Each is documented where
+it happened rather than quietly corrected;
+`python 04_generation/day17_capstone/capstone.py writeup` lists them.
 
 ---
 
